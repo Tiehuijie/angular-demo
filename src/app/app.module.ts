@@ -8,6 +8,8 @@ import {HeroParentComponent} from './components/component-interaction/hero-paren
 import {HeroChildComponent} from './components/component-interaction/hero-child.component';
 import {NameParentComponent} from './components/component-interaction/name-parent.component';
 import {NameChildComponent} from './components/component-interaction/name-child.component';
+import {VersionParentComponent} from './components/component-interaction/version-parent.component';
+import {VersionChildComponent} from './components/component-interaction/version-child.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import {NameChildComponent} from './components/component-interaction/name-child.
     HeroChildComponent,
     NameParentComponent,
     NameChildComponent,
+    VersionParentComponent,
+    VersionChildComponent,
   ],
   imports: [
     BrowserModule,
