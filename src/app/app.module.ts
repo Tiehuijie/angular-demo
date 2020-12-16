@@ -14,6 +14,10 @@ import {CountdownTimerComponent} from './components/component-interaction/countd
 import {CountdownParentComponent} from './components/component-interaction/countdown-parent.component';
 import {MissioncontrolComponent} from './components/component-interaction/missioncontrol.component';
 import {AstronautComponent} from './components/component-interaction/astronaut.component';
+import { DynamicComponentComponent } from './components/dynamic-component/dynamic-component.component';
+import {AdDirective} from './components/dynamic-component/ad.directive';
+import {HeroJobAdComponent} from './components/dynamic-component/hero-job-ad.component';
+import {HeroProfileComponent} from './components/dynamic-component/hero-profile.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +33,10 @@ import {AstronautComponent} from './components/component-interaction/astronaut.c
     CountdownParentComponent,
     MissioncontrolComponent,
     AstronautComponent,
+    DynamicComponentComponent,
+    AdDirective,
+    HeroJobAdComponent,
+    HeroProfileComponent,
   ],
   imports: [
     BrowserModule,
