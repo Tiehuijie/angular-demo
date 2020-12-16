@@ -12,6 +12,8 @@ import {VersionParentComponent} from './components/component-interaction/version
 import {VersionChildComponent} from './components/component-interaction/version-child.component';
 import {CountdownTimerComponent} from './components/component-interaction/countdown-timer.component';
 import {CountdownParentComponent} from './components/component-interaction/countdown-parent.component';
+import {MissioncontrolComponent} from './components/component-interaction/missioncontrol.component';
+import {AstronautComponent} from './components/component-interaction/astronaut.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import {CountdownParentComponent} from './components/component-interaction/count
     VersionChildComponent,
     CountdownTimerComponent,
     CountdownParentComponent,
+    MissioncontrolComponent,
+    AstronautComponent,
   ],
   imports: [
     BrowserModule,
